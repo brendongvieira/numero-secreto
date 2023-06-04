@@ -4,6 +4,7 @@
   --font-family: "Montserrat", sans-serif;
   --bg-color: #146c94;
   --primary-color: #f6f1f1;
+  --secundary-color: #afd3e2;
 }
 
 body {
@@ -23,6 +24,10 @@ h1 {
   font-size: 5em;
 }
 
+h2 {
+  font-size: 4em;
+}
+
 h3 {
   font-size: 2em;
   margin-top: 20px;
@@ -39,4 +44,25 @@ h3 {
   font-size: 4em;
   padding: 10px;
   margin: 20px;
+}
+
+.box2 {
+  border: 2px solid var(--primary-color);
+  display: inline-block;
+  font-size: 1em;
+  padding: 10px;
+  margin: 20px;
+}
+
+.btn-jogar {
+  padding: 8px 15px;
+  border: 0;
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  margin-top: 20px;
+  color: var(--bg-color);
+}
+
+.invalido {
+  color: var(--secundary-color);
 }
